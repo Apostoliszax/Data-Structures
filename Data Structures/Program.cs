@@ -13,7 +13,8 @@ namespace Data_Structures
 
         public static void MyLinkedList()
         {
-            Console.WriteLine("geia");
+            //Console.WriteLine("geia"); oof
+
             string[] cars =
                 {"toyota" , "ford" , "tesla", "kia" };
             LinkedList<string> carsList = new LinkedList<string>(cars);
