@@ -95,8 +95,7 @@ namespace Data_Structures
             {
                 Console.Write(word + " ");
             }
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine(Environment.NewLine);            
         }
         
     }
