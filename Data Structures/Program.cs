@@ -50,6 +50,9 @@ namespace Data_Structures
             carsList.AddBefore(current, "new");
             IndicateNode(current, "Add 'brand' and 'new' before 'tesla' :");
 
+            current = carsList.Find("kia");
+            carsList.Remove(current);
+            IndicateNode(current, "Try to indicate the removed node (kia): ");
 
 
         }
